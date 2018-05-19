@@ -23,5 +23,5 @@ I began my journey as a FS Web Development student in the first week of April. I
 
 * Remember that computer programming's technical and essential purpose:  To solve real-world problems.  You should be excited by the presentation of a problem to solve, as opposed to feeling bothered by problems.  So to further break a broken record, learn to love problems so that you can get to the place to appreciate how your work as a programmer can improve people's daily lives, because that is what it's all about at the end of the day.
 
-Dig deep. Think. Code.
+Dig deep. Think. Code. Evaluate. Adapt. Keep going. :)
 
