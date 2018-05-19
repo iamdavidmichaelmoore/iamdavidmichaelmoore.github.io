@@ -1,15 +1,15 @@
 ---
 layout: post
 title:      "A Way Learn As A Flatiron School Student"
-date:       2018-05-19 15:55:21 +0000
+date:       2018-05-19 11:55:22 -0400
 permalink:  a_way_learn_as_a_flatiron_school_student
 ---
 
 
-I began my learning at Flatiron School in the first week of April. I am a quarter of the way through the curriculum and would like to share some patterns that I have noticed in my learning in hopes that it will be of some help to any beginning FS student.
+I began my journey as a FS Web Development student in the first week of April. I am a quarter of the way through the curriculum and would like to share some patterns that I have noticed in my learning in hopes that it will be of some help to any other beginning FS student.
 
 
-**What I have learned or realized:**
+**What I have learned about my learning:**
 
 * Get comfortable with being uncomfortable with broken code.  In fact, get comfortable with breaking and redoing or refactoring code to higher efficiency. In a phrase, think in drafts. This code is not unlike writing a paper that is too wordy, has overused terms, or poor formatting.  Working code is not necessarily "good" code.  All of this is part of the ongoing process of programming.
 * 
