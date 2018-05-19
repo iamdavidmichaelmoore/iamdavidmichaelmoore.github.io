@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "A Way To Learn As A Flatiron School Student"
+title:      "A Way to Learn As a Flatiron School Student"
 date:       2018-05-19 11:55:22 -0400
 permalink:  a_way_learn_as_a_flatiron_school_student
 ---
