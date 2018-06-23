@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Project: True Crime Documentary "Database""
-date:       2018-06-23 22:55:09 +0000
+date:       2018-06-23 18:55:10 -0400
 permalink:  cli_data_gem_project_true_crime_documentary_database
 ---
 
@@ -34,6 +34,8 @@ Overall, I believe that I have met the requirements of the project by demonstrat
 * Coding is fun. Learning to code is fun and uncannily cathartic. O_O
 
 Bottom line: The CLI data gem was a challenging project, while also gratifying!
+
+Access the repository [here](https://github.com/iamdavidmichaelmoore/true-crime-documentaries).
 
 
 
