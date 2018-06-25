@@ -39,6 +39,8 @@ Bottom line: The CLI data gem was a challenging project, while also gratifying!
 
 Access the repository [here](https://github.com/iamdavidmichaelmoore/true-crime-documentaries).
 
+UPDATE:  24 June 2018 - This video walk-through demonstrates some changes/additions that were made since the publication of this post.  See my walk-through [here](https://youtu.be/1EGOcOhAYpM).
+
 
 
 
