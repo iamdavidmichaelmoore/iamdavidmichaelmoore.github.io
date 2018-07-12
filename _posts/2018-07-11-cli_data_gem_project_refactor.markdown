@@ -45,23 +45,19 @@ def sub_menu
 end
 ```
 
-Submenu:
+Notice that I stored the user input in an instance variable.  The genius of using this is in how its instance scope will allow both the `#sub_menu` and `#main_menu` method's loops to break and exit or end the program. More on this in a moment!
 
-*Top of the menu*
+Submenu:
 
 ![](https://i.imgur.com/KdU0KKn.png)
 
-*Bottom of the same menu due to 180 possible user selection options.*
-
-![](https://i.imgur.com/4tJcXh3.png)was asked to refactor the menu system that I created within my CLI controller class.  I was tasked to eliminate the additional calls on methods that contained `while` loops.  
 
 
+What I have demonstrated is the convention I utilized to step into a menu and then back out of it. However, I've only shown how to end the program with 'quit'.  By choosing a different term for any sub-menu, I can allow the user to return to the main menu from anywhere in the program, as opposed to merely quitting. 
 
-Notice that I stored the user input in an instance variable.  The genius of using this is in how its instance scope will allow both the `#sub_menu` and `#main_menu` method's loops to break and exit or end the program.
+(Note: I grant that this is a not an either/or dilemma. I could indeed create the option to quit from anywhere in the program as well as return to the main menu from anywhere else in the program too.  It was just my prerogative to do one over the other.)
 
-What I have demonstrated is the convention I utilized to step into a menu and then back out of it. However, I've only shown how to end the program with 'quit'.  By choosing a different term for any sub-menu, I can allow the user to return to the main menu from anywhere in the program, as opposed to merely quitting. (Note: I grant that this is a not an either/or dilemma. I could indeed create the option to quit from anywhere in the program as well as return to the main menu from anywhere else in the program too.  It was just my prerogative to do one over the other.)
-
-Written as follows (below)  the `#sub_menu` will enable the user to type in 'main,' which breaks the sub menu's loop but will stop at the main menu.  Why? The `@input` instance variable currently holds the string 'main,' thereby preventing the `#main_menu' loop from breaking or ending.
+Written as follows (below) the `#sub_menu` will enable the user to type in 'main,' which breaks the sub menu's loop but will stop at the main menu.  Why? The `@input` instance variable currently holds the string 'main,' thereby preventing the `#main_menu` loop from breaking or ending.
 
 ```
 
@@ -73,6 +69,10 @@ def sub_menu
  end
 end
 ```
+
+*Bottom of the sub-menu due to 180 possible user selection options.*
+
+![](https://i.imgur.com/4tJcXh3.png)
 
 In the last image above the user is given the option to enter 'Main' which breaks its loop, and returns to the main menu.
 
