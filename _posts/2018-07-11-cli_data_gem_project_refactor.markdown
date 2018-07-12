@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "CLI Data Gem Project Refactor"
-date:       2018-07-12 03:10:10 +0000
+title:      "CLI Data Gem Project Refactor:  Building CLI Menus"
+date:       2018-07-11 23:10:10 -0400
 permalink:  cli_data_gem_project_refactor
 ---
 
