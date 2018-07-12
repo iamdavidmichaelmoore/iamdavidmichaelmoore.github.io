@@ -24,7 +24,7 @@ Let's say this code is your CLI main menu method:
    # some code
    @input = gets.strip.downcase
    # some logic code to trigger the #main_menu method
-     # some logic code that triggers the 'break' statement when @input = 'quit'
+   # some logic code that triggers the 'break' statement when @input = 'quit'
   end
  end
  ```
@@ -39,8 +39,8 @@ Now let's navigate to a sub-menu by choosing option 16. The code below triggers 
 def sub_menu
  while @input != 'quit' do
   # some code
-    @input = gets.strip.downcase
-    # some logic code that triggers the 'break' statement when @input = 'quit'
+  @input = gets.strip.downcase
+  # some logic code that triggers the 'break' statement when @input = 'quit'
  end
 end
 ```
@@ -64,8 +64,8 @@ Written as follows (below) the `#sub_menu` will enable the user to type in 'main
 def sub_menu
  while @input != 'main' do
   # some code
-    @input = gets.strip.downcase
-    # some logic code that triggers the 'break' statement when @input = 'quit'
+  @input = gets.strip.downcase
+  # some logic code that triggers the 'break' statement when @input = 'quit'
  end
 end
 ```
