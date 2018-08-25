@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra RESTful Routes Lab Note"
-date:       2018-08-25 14:32:03 +0000
+date:       2018-08-25 10:32:04 -0400
 permalink:  sinatra_restful_routes_lab_note
 ---
 
@@ -14,4 +14,4 @@ Takeaway from this lab:
 
 Remember to add the 'use Rack::MethodOverride' to the config.ru file above the line with  'run ApplicationController'.
 
-![](https://imgur.com/R3C0h9X)
+![](https://i.imgur.com/R3C0h9X.png)
