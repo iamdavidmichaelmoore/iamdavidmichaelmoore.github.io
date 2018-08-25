@@ -12,6 +12,6 @@ Knocked out the Sinatra RESTful Routes Lab.
 
 Takeaway from this lab:
 
-Remember to add the 'use Rack::MethodOverride' to the config.ru file above the line with  'run ApplicationController'.
+Remember to add the `use Rack::MethodOverride` to the config.ru file above the line with  `run ApplicationController`.
 
 ![](https://i.imgur.com/R3C0h9X.png)
