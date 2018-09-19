@@ -39,10 +39,10 @@ In seriousness, here are some tips for getting through this lab without fear of 
 
 * Make sure to add the correct values for the `name` and `id` attributes of each input HTML tag in your `edit.erb` and `new.erb` forms within the `Songs` view. 
 
-	`<input type="text name="Artist Name" id="artist_name" value="<%= @song.artist.name%>">`
-
 
 * IMPORTANT! When you create your `edit.erb` form in the `Songs` view make sure to add the `Artist` attribute with its erb value from the database.  Otherwise, several remaining spec tests will not pass.
+
+ `<input type="text name="Artist Name" id="artist_name" value="<%= @song.artist.name%>">`
 
 All of these bullet points were major delays towards completion!  Maybe I didn’t remember past lessons well.  Maybe I had other things on my mind. Who knows what? But I’m sharing them for any other student that wants to avoid the frustrations I ran into.
 
