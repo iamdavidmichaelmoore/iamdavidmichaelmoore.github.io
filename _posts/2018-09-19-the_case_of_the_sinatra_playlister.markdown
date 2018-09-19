@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Case of the Sinatra Playlister"
-date:       2018-09-19 16:46:27 +0000
+date:       2018-09-19 12:46:28 -0400
 permalink:  the_case_of_the_sinatra_playlister
 ---
 
@@ -49,5 +49,7 @@ All of these bullet points were major delays towards completion!  Maybe I didnâ€
 Just paying it forward! :)
 
 Happy coding!
+
+Originally posted on [iamdavidmoore.com](https://iamdavidmichaelmoore.com).
 
 
