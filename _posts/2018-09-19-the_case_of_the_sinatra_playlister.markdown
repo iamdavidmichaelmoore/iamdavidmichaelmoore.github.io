@@ -24,7 +24,7 @@ In seriousness, here are some tips for getting through this lab without fear of 
 
 * Place the `use Rack::Flash` code directly within the `SongController` class.
 
-* The flash message will go in your `post` and `patch` `Songs` controller.
+* The flash message will go in your `post` and `patch` routes of your `Songs` controller.
 
 * The test specs have keywords that refer to the Capybara for things it will look for in your HTML forms, such as `fill_in` and `click_on`.
 
@@ -40,9 +40,7 @@ In seriousness, here are some tips for getting through this lab without fear of 
 * Make sure to add the correct values for the `name` and `id` attributes of each input HTML tag in your `edit.erb` and `new.erb` forms within the `Songs` view. 
 
 
-* IMPORTANT! When you create your `edit.erb` form in the `Songs` view make sure to add the `Artist` attribute with its erb value from the database.  Otherwise, several remaining spec tests will not pass.
-
- `<input type="text name="Artist Name" id="artist_name" value="<%= @song.artist.name%>">`
+* IMPORTANT! When you create your `edit.erb` form in the `Songs` view make sure to add the `Artist` attribute with its erb value from the database.  Otherwise, several remaining spec tests will not pass
 
 All of these bullet points were major delays towards completion!  Maybe I didn’t remember past lessons well.  Maybe I had other things on my mind. Who knows what? But I’m sharing them for any other student that wants to avoid the frustrations I ran into.
 
